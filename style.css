@@ -1,0 +1,14 @@
+/* write the thing you want to target (target all p tags)
+press enter to give space 
+inside the space on each line, we enter command
+We need to spell in american*/
+p {
+color: purple;
+font-size: 24px;
+}
+/* bring css rules into html */
+
+/* when we target the width of a photo, it will automatically target the height too. */
+img {
+    width: 300px;
+}

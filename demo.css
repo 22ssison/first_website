@@ -1,0 +1,41 @@
+/* browses by default create a gap. */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(15, 15, 255);
+}
+
+.hero{
+    height: 400px;
+    border: 1px solid black;
+    /* 4th 000 is black and the 4th parameter is a transparity a degree of 0-1 */
+    background: linear-gradient(rgb(72, 96, 189), rgba(255, 15, 15, 0.2)), url(./assets/hero.jpg) center center no-repeat;
+    /* center center for the x and y axis */
+    background-size: cover;
+}
+
+/* only with the class .hero-title */
+/* you always need to include the dot in css. for html, its just a shorthand. */
+.hero-title {
+    color:rgb(11, 19, 62);
+    border: 1px solid black;
+    font-size: 120px;
+    /* line style, solid, dash */
+}
+
+.anchor{
+    color: rgb(31, 108, 0);
+}
+
+p{
+    text-align: left;
+    color: rgb(149, 6, 6);
+}
+
+
+/* browses by default create a gap. */
+

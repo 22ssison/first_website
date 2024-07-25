@@ -1,14 +1,50 @@
-/* write the thing you want to target (target all p tags)
-press enter to give space 
-inside the space on each line, we enter command
-We need to spell in american*/
-p {
-color: purple;
-font-size: 24px;
+/* browses by default create a gap. */
+* {
+    padding: 0;
+    margin: 0;
 }
-/* bring css rules into html */
 
-/* when we target the width of a photo, it will automatically target the height too. */
-img {
-    width: 300px;
+h1{
+    text-align: center;
+    color: rgb(15, 15, 255);
 }
+
+.hero{
+    height: 400px;
+    border: 1px solid black;
+    /* 4th 000 is black and the 4th parameter is a transparity a degree of 0-1 */
+    background: url(./assets-recipes/macaron.jpeg) center center no-repeat;
+    /* center center for the x and y axis */
+    background-size: cover;
+}
+
+/* only with the class .hero-title */
+/* you always need to include the dot in css. for html, its just a shorthand. */
+.hero-title {
+    color:rgb(255, 228, 189);
+    border: 1px solid black;
+    font-size: 120px;
+    /* line style, solid, dash */
+}
+
+.anchor{
+    color: rgb(31, 108, 0);
+}
+
+p{
+    text-align: left;
+    color: rgb(149, 6, 6);
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.noto-serif-font> {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* browses by default create a gap. */
+

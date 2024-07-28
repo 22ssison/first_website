@@ -5,11 +5,13 @@
 }
 
 h1{
-    text-align: center;
-    color: rgb(15, 15, 255);
+    color: rgb(131, 50, 0);
+    margin-top: 50px;
+    margin-left: 100px;
 }
 
 .hero{
+    text-align: center;
     height: 400px;
     border: 1px solid black;
     /* 4th 000 is black and the 4th parameter is a transparity a degree of 0-1 */
@@ -28,23 +30,22 @@ h1{
 }
 
 .anchor{
-    color: rgb(31, 108, 0);
+    margin-left: 250px;
+    color: rgb(169, 100, 16);
 }
 
 p{
     text-align: left;
     color: rgb(149, 6, 6);
+    margin-left: 100px;
 }
 
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
 
-.noto-serif-font> {
-  font-family: "Noto Serif", serif;
+.alice-regular-font {
+  font-family: "Alice", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-
-/* browses by default create a gap. */
-

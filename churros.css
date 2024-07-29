@@ -24,7 +24,7 @@ h1{
 /* you always need to include the dot in css. for html, its just a shorthand. */
 .hero-title {
     text-align: center;
-    color:rgb(255, 228, 189);
+    color:rgb(185, 0, 0);
     font-size: 120px;
     margin-right: 100px;
     /* line style, solid, dash */
@@ -58,8 +58,7 @@ p{
 }
 
 img {
-    /* when you use a percentage = percentage of outer container*/
-    /* look up display rules. */
+    width: 25%;
     height: 250px;
     float: right;
     display: block;
@@ -68,21 +67,3 @@ img {
     border: 5px solid rgb(147, 98, 67);
 }
 
-.ingredients-img {
-    /* don't set width anymore since class is added. orelse it will make it 20% of the 20% of main. */
-    height: 250px;
-    float: right;
-    display: block;
-    margin-right: 50px;
-    border-radius: 10%;
-    border: 5px solid rgb(147, 98, 67);
-}
-
-.method-img {
-    height: 250px;
-    float: right;
-    display: block;
-    margin-right: 50px;
-    border-radius: 10%;
-    border: 5px solid rgb(147, 98, 67);
-}

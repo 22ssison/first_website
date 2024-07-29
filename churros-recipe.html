@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="demo.css">
-    <title>Recipe Book</title>
+    <link rel="preconnect" href="https://f23/onts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="churros.css">
+    <title>Classic Churros</title>
 </head>
 <body>
     <header>
@@ -12,47 +15,51 @@
         <div class="hero">
             <!-- h1.hero-title + tab is a shortcut to create a class 
             by using classes, I can apply styles for specific h1's rather than all h1's-->
-            <h1 class="hero-title">RECIPES</h1>
+            <h1 class="hero-title alice-regular-font">Classic Churros</h1>
         </div>
     </header>
-
-    <!-- have a summer menu and a winter menu. -->
-    <nav>
+    
+    <nav class="alice-regular-font">
     <!--  puttng the class inside the anchor tag applies the set of css rules that you have given to that class-->
-        <a href="./cookie-recipe.html" class="anchor">RECIPE #1</a>
-        <a href="./churros-recipe.html" class="anchor">RECIPE #1</a>
-        <a href="./cremebrulee-recipe.html" class="anchor">RECIPE #1</a>
+        <a href="./index.html" class="home-anchor">• Return to HOME page</a>
+        <a href="./cookies-recipe.html" class="anchor">• RECIPE for Cookies</a>
+        <a href="./brownies-recipe.html" class="anchor">• RECIPE for Brownies</a>
     </nav>
 
-    <main>
-        <h1>Welcome</h1>
-        <p>to ! where you can find traditional fench recipes.</p>
+    <main class="alice-regular-font">
+        <img src="./assets-recipes/choc-chips.jpeg" alt="A picture of cookie dough on tray.">  
+        <img src="./assets-recipes/cookies-mis-en-place.webp" alt="A picture of cookie dough.">  
+        <h1>Ingredients:</h1>
+        <p class="ingredients-description"><br>- 1 cup unsalted butter, softened <br>
+            - 1 cup granulated sugar <br>
+            - 1 cup packed brown sugar <br>
+            - 2 large eggs <br>
+            - 1 teaspoon vanilla extract <br>
+            - 3 cups all-purpose flour <br>
+            - 1 teaspoon baking soda <br>
+            - 1/2 teaspoon baking powder <br>
+            - 1/2 teaspoon salt <br>
+            - 2 cups chocolate chips </p>
+
+    <!-- put a class to divide the images in css -->
+        
+        <h1>Meathod:</h1>
+        <img src="./assets-recipes/cookies-on-tray.jpeg" alt="A picture of cookie dough on tray.">  
+        <img src="./assets-recipes/cookie-dough.jpeg" alt="A picture of cookie dough.">  
+        <p class="method-description">
+            <br>1) Preheat Oven: Preheat your oven to 350°F (175°C). <br><br>
+            2) Mix Wet Ingredients: In a large bowl, cream together the butter, granulated sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla extract. <br><br>
+            3) Combine Dry Ingredients: In a separate bowl, combine the flour, baking soda, baking powder, and salt. <br><br>
+            4) Mix Together: Gradually add the dry ingredients to the wet ingredients, mixing until just blended. Stir in the chocolate chips. <br><br>
+            5) Scoop Dough: Drop rounded spoonfuls of dough onto ungreased baking sheets. <br><br>
+            6) Bake: Bake for 10-12 minutes, or until edges are golden brown. <br><br>
+            7) Enjoy!</p>
+
     </main>
 
-    <footer>
+    <footer class="alice-regular-font">
         <!-- h1.contact means it will create an h1 class with contact as its class value. -->
         <h1 class="contact">CONTACT US</h1>
     </footer>
 </body>
 </html>
-
-<!-- 
-vocabulary: (prolifically used)
-header - is the visual thing (usually has an image in the background behind the text)
-nav - 
-main - 
-footer - links
-
-card(s) - image(s) on website.
-hero - eyecatching big text with image in the background. 
-
-
-do:
-- create 3 links name-recipe.html
-- create 3 more pages using these link names as the page name. 
-- select all from index and copy past every thing for each of the pages because it just follows the same structure
-- customise that page to suit that recipe.
-- have a brief description of the dish. 
-- have a link to go back home.
--   
- -->

@@ -49,3 +49,41 @@ p{
   font-weight: 400;
   font-style: normal;
 }
+
+.navbar {
+    /* display to tell containers how to display the things inside of them. */
+    /* to make them be beside of eachother */
+    display: flex;
+    /* display flex and justify-content go together. */
+    justify-content: centre;
+    background-color: rgb(71, 86, 255);
+    border: 1px solid black;
+
+}
+
+.nav-link {
+    border: 1px solid tomato;
+    background-color: bisque;
+    color: tomato;
+    margin: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* get rid of underlines */
+    text-decoration: none;
+    /* get rid of bullet points from list */
+    font-size: 20px;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+/* whenever the mouse hovers over the link, it is going to change the css rules. */
+.nav-link:hover {
+    color: rgb(157, 47, 27);
+    background-color: rgb(208, 154, 89);
+    transition: 1.8s;
+}

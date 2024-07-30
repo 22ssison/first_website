@@ -21,7 +21,6 @@ h1{
 }
 
 /* only with the class .hero-title */
-/* you always need to include the dot in css. for html, its just a shorthand. */
 .hero-title {
     color:rgb(255, 228, 189);
     border: 1px solid black;
@@ -66,8 +65,6 @@ p{
     background-color: rgb(255, 209, 231);
     color: tomato;
     margin: 15px;
-    padding-top: 2px;
-    padding-bottom: 2px;
     padding-left: 5px;
     padding-right: 5px;
     /* get rid of underlines */
@@ -92,11 +89,12 @@ li {
 img {
     width: 270px;
     height: 200px;
-    float: right;
-    display: block;
-    margin-right: 50px;
+    display: inline-block;
+    margin-right: 150px;
     border-radius: 20%;
     border: 5px solid rgb(147, 98, 67);
+    margin-right: 100px;
+    margin-left: 20px
 }
 
 .example {
@@ -122,3 +120,26 @@ img {
     padding: 2px;
     text-align: center;
   }
+
+  .recipe-title {
+    text-align: justify;
+    width: 270px;
+  }
+
+  h2 {
+    color: rgb(131, 50, 0);
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: 900px;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .recipe-button {
+    text-align: center;
+    margin-left: 400px;
+  }
+

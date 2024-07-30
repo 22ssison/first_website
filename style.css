@@ -75,6 +75,7 @@ p{
     /* get rid of bullet points from list */
     font-size: 20px;
     font-weight: 700;
+    margin: center auto;
 }
 
 li {
@@ -89,11 +90,35 @@ li {
 }
 
 img {
-    width: 20%;
-    height: 250px;
+    width: 270px;
+    height: 200px;
     float: right;
     display: block;
     margin-right: 50px;
-    border-radius: 60%;
+    border-radius: 20%;
     border: 5px solid rgb(147, 98, 67);
 }
+
+.example {
+    background-color: greenyellow;
+    width: 100px;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  figure { 
+    border: 1px;
+    padding: 4px;
+    margin: auto;
+  }
+
+  figcaption {
+    background-color: rgb(255, 204, 141);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
